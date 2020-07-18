@@ -1,0 +1,79 @@
+body{
+  text-align: center;
+  background-color: #edf4f2;
+  font-size: 16px;
+}
+@media only screen and (min-width: 600px) {
+  .sec21{
+    width: 50vw;
+    margin: auto;
+  }
+}
+.row{
+  font-size: 15px;
+  background-color: #f40552;
+  color: white;
+}
+h1 , h2{
+    color: #f54291;
+    font-weight: bold;
+}
+hr{
+  background-color: #f54291;
+  height: 2px;
+  width: 30vw;
+}
+.services li{
+  list-style-type: none;
+  margin-top: 30px;
+  font-size: 20px;
+}
+.navbar-brand{
+  font-family: 'Pacifico', cursive;
+  font-size: 25px;
+}
+.brand{
+  color:#fa26a0;
+
+}
+.section-one{
+   margin-top: 70px;
+
+}
+#myCarousel img{
+  height: 70vh;
+}
+
+
+
+::-webkit-scrollbar {
+      width: 3px;
+    }
+ul{
+  white-space: nowrap;
+   display: inline-block;;
+   margin-right: 10px;
+
+}
+li{
+  list-style-type: none;
+}
+.nav-item,.nav-item a{
+  color: white;
+  white-space: nowrap;
+   display: inline-block;
+   margin-right: 10px;
+}
+
+.nav{
+  float: right;
+  margin-right: 0;
+  list-style:none;
+  display: flex;
+
+}
+.nav-item a:hover{
+  color: #d92027;
+
+  font-weight: bold;
+}
